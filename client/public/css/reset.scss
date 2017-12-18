@@ -1,0 +1,36 @@
+@import "./partial/_mixin";
+@import "./partial/_media-query";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #e7e7e7;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+section, header, footer, #section, #header, #footer{
+    width:100%;
+    float:left;
+    position:relative;
+}
+
+$placeholder:#666;
+
+::-webkit-input-placeholder {
+   color:$placeholder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color:$placeholder;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:$placeholder;
+}
+
+:-ms-input-placeholder {  
+   color:$placeholder;
+}
