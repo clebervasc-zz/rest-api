@@ -1,5 +1,5 @@
 # rest-api
-REST API - Mercado Livre. Teste de Admissão
+REST API - Mercado Livre.
 <br>
 
 # Initialize Server
